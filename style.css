@@ -1,0 +1,221 @@
+*{
+   Margin:0;
+   Padding:0;
+   Box-sizing: border-box;
+   Font-family: helvetica monospace;
+}
+body {background-color: aliceblue;
+}
+
+#background{
+    background-image: url(index-fundo.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-right: 10%;
+
+}
+nav h2{
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 30px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration-line: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color:brown;
+} 
+
+img{
+    border-radius: 10%;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    transform: translateX(-50);
+}
+
+.Main{
+    position:absolute;
+    top: 50%;
+    right: 8%;
+    transform: translateY(-50);
+}
+
+h4{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1{
+    color: brown;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.background-color-sobre{
+    background-color: aliceblue;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.background-color-sobre img{
+    width: 300px;
+    height: auto;
+    border-radius: 45%;
+    position:relative;
+}
+
+.text-sobre{
+    width: 550px;
+    position:relative;  
+}
+
+.Main-sobre{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+    background-color: white ;
+}
+
+.text-sobre h2{
+    color: brown ;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.text-sobre h5{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.text-sobre p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.conteiner-interesses{
+     background-color: aliceblue;
+     width: 100%; 
+     padding: 100px 0px;
+}
+
+.Title h2{
+    color: #800000;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+} 
+
+.Caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    height: 365px;
+    width: 335px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #800000;
+}
+
+.card h5{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.carp p{
+    color: black;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.Contato{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contato p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+}
+
+.End p{
+    position: center;
+    color: #800000;
+    bottom: 35px;
+    font-size: 14px;
+}
